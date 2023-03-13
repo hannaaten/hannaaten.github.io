@@ -82,13 +82,17 @@ nav a{
     }
 
     nav ul{
-        font-size: 10px;
+        font-size: 15px;
         padding: 15px;
+    }
+
+    nav h2{
+        font-size: 40px;
     }
 
 
     .main img{
-        width: 200px;
+        width: 250px;
         padding-right: 0px;
     }
 
@@ -109,6 +113,11 @@ nav a{
 
     .about_text button{
         size: 100px;
+    }
+
+    .about_text h1{
+        font-size: 25px;
+        padding-top: 10px;
     }
 
 
