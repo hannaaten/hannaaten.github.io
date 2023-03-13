@@ -22,6 +22,7 @@ nav{
     background: #f5e9e9;
     height: 60px;
     font-size: 20px;
+    width: 100%;
 }
 
 nav ul{
@@ -46,7 +47,7 @@ nav a{
     margin:0 auto;
     display:flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .main img{
@@ -65,4 +66,51 @@ nav a{
     border: 2px solid transparent;
     padding: 13px 30px;
     border-radius: 30px;
+}
+
+@media only screen and (width < 600px) {
+    body{
+        width:414px;
+    }
+    
+    nav{
+        height:auto;
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+    
+    }
+
+    nav ul{
+        font-size: 10px;
+        padding: 15px;
+    }
+
+
+    .main img{
+        width: 200px;
+        padding-right: 0px;
+    }
+
+    .main{
+        display: flex;
+        flex-direction: column;
+        width:100%;
+        background-color: #ffffff;
+        padding:20px;
+        align-items: center;
+    }
+
+    .about_text{
+        width:300px;
+        padding-left: 0px;
+        text-align: center;
+    }
+
+    .about_text button{
+        size: 100px;
+    }
+
+
+
 }
